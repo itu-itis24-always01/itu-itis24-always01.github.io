@@ -19,4 +19,13 @@ body{
 }
 
 #profile-pic{
-    bor
+    border-radius: 50%;
+    object-fit: cover;
+    width:200px;
+    height: 250px;px;
+    display:block;
+    margin: 0 auto;
+
+
+
+    
