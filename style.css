@@ -1,0 +1,22 @@
+body{
+    background-color:#d3d8e0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:0;
+    flex-direction: column;
+}
+#AboutMe{
+    color:black;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 20px;
+
+
+
+    
+
+}
+
+#profile-pic{
+    bor
