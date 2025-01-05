@@ -1,30 +1,56 @@
 body{
-    background-color:#d3d8e0;
+    background: linear-gradient(to bottom,white, #d7e8f7);
     justify-content: center;
     align-items: center;
     display: flex;
     margin:0;
-    flex-direction: column;
+    flex-direction: column; 
+    padding:0;
 }
 #AboutMe{
     color:black;
     max-width: 400px;
     text-align: center;
     margin-top: 20px;
-
-
-
-    
-
+    background-color:Light Cyan;
+    border: 2px solid #0a3d62;
+    border-radius: 50px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    padding: 20px;
+}
+#AboutMe h1{
+    color:#0a3d62
+}
+#AboutMe p {
+    color:#191970
 }
 
 #profile-pic{
     border-radius: 50%;
     object-fit: cover;
     width:200px;
-    height: 250px;px;
+    height: 250px;
     display:block;
     margin: 0 auto;
+    border: 3px solid #aad3f09f;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+
+}
+#My-name{
+    font-size:40px;
+    color:#0a3d62
+
+}
+#University-name{
+    font-size:22px;
+    color: #46637f;
+    margin-top: -25px;
+
+}
+
 
 
 
