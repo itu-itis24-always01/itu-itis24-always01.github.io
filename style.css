@@ -2,10 +2,12 @@ body{
     background: linear-gradient(to bottom,white, #d7e8f7);
     justify-content: center;
     align-items: center;
-    display: flex;
+    display:flex;
     margin:0;
-    flex-direction: column; 
-    padding:0;
+    flex-direction:column;
+    
+
+
 }
 #AboutMe{
     color:black;
@@ -20,10 +22,10 @@ body{
     padding: 20px;
 }
 #AboutMe h1{
-    color:#0a3d62
+    color:#0a3d62;
 }
 #AboutMe p {
-    color:#191970
+    color:#191970;
 }
 
 #profile-pic{
@@ -36,22 +38,14 @@ body{
     border: 3px solid #aad3f09f;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
-    
-
 }
 #My-name{
     font-size:40px;
-    color:#0a3d62
+    color:#0a3d62;
 
 }
 #University-name{
     font-size:22px;
     color: #46637f;
     margin-top: -25px;
-
 }
-
-
-
-
-    
