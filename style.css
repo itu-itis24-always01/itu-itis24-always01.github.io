@@ -5,9 +5,6 @@ body{
     display:flex;
     margin:0;
     flex-direction:column;
-    
-
-
 }
 #AboutMe{
     color:black;
@@ -49,3 +46,66 @@ body{
     color: #46637f;
     margin-top: -25px;
 }
+#Academic-interest{
+    color:black;
+    max-width: 400px;
+    margin-top: 20px;
+    background-color:Light Cyan;
+    border: 2px solid #0a3d62;
+    border-radius: 50px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    padding: 20px; 
+    margin-right: 63%;
+
+    
+}
+#Academic-interest h1{
+    color:#0a3d62;
+}
+#Academic-interest p{
+    color:#191970;
+    font-style:oblique;
+    font-size: 16px;
+}
+#skills{
+    color:black;
+    max-width: 400px;
+    margin-top: -239px ;
+    background-color:Light Cyan;
+    border: 2px solid #0a3d62;
+    border-radius: 50px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    padding: 20px; 
+    margin-left:63%;
+
+}
+#skills h1{
+    color:#0a3d62;
+}
+#skills p{
+    color:#191970;
+    font-style:oblique;
+    font-size: 16px;
+}
+#game-link{
+    margin-left:75%;
+    margin-top: -60%;
+    color:white;
+    background-color:#418cd1;
+    font-size:25px;
+    border:#0a3d62;
+    border-radius:18px;
+    font-weight:bold;
+    position:fixed;
+    text-decoration:none;
+    padding:10px;
+    font-style:inherit;
+}
+
+
+
+
+
+    
