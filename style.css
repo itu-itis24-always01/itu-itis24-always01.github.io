@@ -91,7 +91,7 @@ body{
 }
 #game-link{
     margin-left:75%;
-    margin-top: -60%;
+    margin-top: -55%;
     color:white;
     background-color:#418cd1;
     font-size:25px;
@@ -103,6 +103,8 @@ body{
     padding:10px;
     font-style:inherit;
 }
+
+
 
 
 
