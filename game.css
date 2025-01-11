@@ -1,9 +1,24 @@
 body{
     background:#f8fdff;
+    text-align: center;
 }
 #word-prediction{
     color:#04789f;
     text-align: center;
     margin:0;
     margin-top: 100px;
+    font-family:sans-serif;
+}
+#submit{
+    background-color:#51a1e7;
+    border-color: #51a1e7;
+    text-align: center;
+    width: 75px;
+    height:60px;
+    margin-top: 70px;
+    border-radius: 25px;
+    color:white;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+
 }
