@@ -8,11 +8,13 @@
         
     <body>
         <h1 id="word-prediction"> Word Prediction Game</h1>
-        <div>
-            <label>Prediction:</label>
-            <input id="prediction" name="Prediction" type="text" placeholder="word">
+
+        <div id="prediction-submit">
+            <label id="prediction-label">Prediction:</label>
+            <input id="prediction" name="Prediction" type="text" placeholder="word" maxlength="1">
+            <button id="submit"><h3>Submit</h3></button>
         </div>
-        <button id="submit"><h3>Submit</h3></button>
+
         <div id="score-part">
             <strong>Score</strong> <span id="score">0</span> | <strong>Lives</strong>:
             <span id="hearts">
