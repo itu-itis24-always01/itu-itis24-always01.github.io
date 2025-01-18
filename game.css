@@ -122,4 +122,7 @@ body{
 .hidden{
     display:none;
 }
+#restart-button:hover{
+    color:#006aff;
+}
 
