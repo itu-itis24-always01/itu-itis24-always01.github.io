@@ -32,4 +32,74 @@ body{
 }
 #heart3{
     width: 16px;
-    heig
+    height:16px; 
+}
+#prediction-submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+#prediction{
+    position:relative;
+    margin-bottom: 20px;
+    margin-left: 50;
+}
+#prediction-label{
+    position:relative;
+    margin-right:250px;
+    margin-bottom:-18px;
+    padding-left: 20px;
+}
+#submit:hover{
+    background-color:#318fe1;
+}
+#box1{
+    background-color:#2e78ccab;
+    height:120px;
+    width:120px;
+    position:center;
+    margin-top:100px;
+    margin-left:250px;
+    border:3px solid black;
+    border-radius: 10px;
+}
+#box2{
+    background-color:#2e78ccab;
+    height:120px;
+    width:120px;
+    margin-top:-125px;
+    margin-left:440px;
+    border:3px solid black;
+    border-radius: 10px;
+}
+#box3{
+    background-color:#2e78ccab;
+    height:120px;
+    width:120px;
+    margin-top:-124px;
+    margin-left:640px;
+    border:3px solid black;
+    border-radius: 10px;
+}
+#box4{
+    background-color:#2e78ccab;
+    height:120px;
+    width:120px;
+    margin-top:-125px;
+    margin-left:840px;
+    border:3px solid black;
+    border-radius: 10px;
+}
+#box5{
+    background-color:#2e78ccab;
+    height:120px;
+    width:120px;
+    margin-top:-125px;
+    margin-left:1045px;
+    border:3px solid black;
+    border-radius: 10px;
+}
+#restart-button{
+    background-c
