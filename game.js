@@ -24,30 +24,52 @@ let userinput = "";
 
 playerSubmit.onclick = function () {
     userinput = playerInput.value.toUpperCase()
+    if(userinput>3 && userinput !=="BLINK"){
+        alert("You Lost The Game!")
+        playerHeart1.classList.add("hidden");
+        playerHeart2.classList.add("hidden");
+        playerHeart3.classList.add("hidden");
+
+    }
 
     if (array_words.includes(userinput)){
         score = score+20;
         playerScore.textContent = score;
         if(userinput === "B"){
-            imageB.classList.remove("hidden");
+            imageB.style.visibility = "visible";
             playerBox1.style.visibility = "hidden";
         }else if(userinput === "L"){
-            imageL.classList.remove("hidden");
+            imageL.style.visibility = "visible";
             playerBox2.style.visibility = "hidden";
         }else if(userinput === "I"){
-            imageI.classList.remove("hidden");
+            imageI.style.visibility = "visible";
             playerBox3.style.visibility = "hidden";
         }else if(userinput === "N"){
-            imageN.classList.remove("hidden");
+            imageN.style.visibility = "visible";
             playerBox4.style.visibility = "hidden";
         }else if(userinput === "K"){
-            imageK.classList.remove("hidden");
+            imageK.style.visibility = "visible";
             playerBox5.style.visibility = "hidden";
         }
-        if (score ===100){
-            alert("Congradulation You Won The Game!")
-        }
 
+
+    }else if(userinput === "BLINK"){
+        score = 100;
+        playerScore.textContent = score;
+
+        imageB.style.visibility =  "visible";
+        playerBox1.style.visibility = "hidden";
+        imageL.style.visibility ="visible";
+        playerBox2.style.visibility = "hidden";
+        imageI.style.visibility = "visible";
+        playerBox3.style.visibility ="hidden";
+        imageN.style.visibility =  "visible";
+        playerBox4.style.visibility = "hidden";
+        imageK.style.visibility = "visible";
+        playerBox5.style.visibility ="hidden";
+        if(score ===100){
+            alert("Congratulations You Won The Game!")
+        }
     }else{
         wrong = wrong+1;
         if (wrong === 1){
@@ -56,6 +78,7 @@ playerSubmit.onclick = function () {
             playerHeart2.classList.add("hidden");
         }else if(wrong ===3){
             playerHeart3.classList.add("hidden");
+            alert("You Lost The Game!");
         }
     }
     playerInput.value = ""
@@ -77,18 +100,21 @@ playerRestartButton.onclick = function (){
     playerHeart3.classList.remove("hidden");
     playerRestartButton.classList.add("hidden");
 
-    imageB.classList.add("hidden")
-    imageL.classList.add("hidden")
-    imageI.classList.add("hidden")
-    imageN.classList.add("hidden")
-    imageK.classList.add("hidden")
+    imageB.style.visibility = "hidden"
+    imageL.style.visibility = "hidden"
+    imageI.style.visibility = "hidden"
+    imageN.style.visibility = "hidden"
+    imageK.style.visibility = "hidden"
 
     playerBox1.style.visibility = "visible";
     playerBox2.style.visibility = "visible";
     playerBox3.style.visibility = "visible";
     playerBox4.style.visibility = "visible";
     playerBox5.style.visibility = "visible";
+
+    playerInput.value="";
 }
+
 
 
 

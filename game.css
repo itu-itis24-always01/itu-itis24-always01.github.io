@@ -6,7 +6,8 @@ body{
     color:#04789f;
     text-align: center;
     margin:0;
-    margin-top: 100px;
+    top:100px;
+    margin-top: 70px;
     font-family:sans-serif;
 }
 #submit{
@@ -55,50 +56,71 @@ body{
 #submit:hover{
     background-color:#318fe1;
 }
-#box1{
-    background-color:#2e78ccab;
-    height:120px;
-    width:120px;
+#Box-part{
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 100px;
     position:center;
-    margin-top:100px;    
-    margin-left:250px;
-    border:3px solid black;
+}
+#box1{
+    background-color: #2e78ccab;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
 }
 #box2{
-    background-color:#2e78ccab;
-    height:120px;
-    width:120px;
-    margin-top:-125px;
-    margin-left:440px;
-    border:3px solid black;
+    background-color: #2e78ccab;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
 }
 #box3{
-    background-color:#2e78ccab;
-    height:120px;
-    width:120px;
-    margin-top:-124px;
-    margin-left:640px;
-    border:3px solid black;
+    background-color: #2e78ccab;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
 }
 #box4{
-    background-color:#2e78ccab;
-    height:120px;
-    width:120px;
-    margin-top:-125px;
-    margin-left:840px;
-    border:3px solid black;
+    background-color: #2e78ccab;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
 }
 #box5{
-    background-color:#2e78ccab;
-    height:120px;
-    width:120px;
-    margin-top:-125px;
-    margin-left:1045px;
-    border:3px solid black;
+    background-color: #2e78ccab;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
 }
 #restart-button{
@@ -113,7 +135,6 @@ body{
     border-top-width: 3px;
     border-bottom-width: 3px;
     margin-top:3px;
-    
 }
 #score-part{
     margin-left:850px;
@@ -126,6 +147,47 @@ body{
 #restart-button:hover{
     color:#006aff;
 }
+#IMGB{
+    width: 120px; 
+    height: 120px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+#IMGL{
+    width: 120px; 
+    height: 120px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+#IMGI{
+    width: 120px; 
+    height: 120px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+#IMGN{
+    width: 120px; 
+    height: 120px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+#IMGK{
+    width: 120px; 
+    height: 120px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
 
 
 

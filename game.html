@@ -8,17 +8,28 @@
         
     <body>
         <h1 id="word-prediction"> Word Prediction Game</h1>
-        <div>
-        <div id="box1"><img id="IMGB"class="hidden"src="Inkspace-images/B.png"></div>
-        <div id="box2"><img id="IMGL"class="hidden"src="Inkspace-images/L.png"></div>
-        <div id="box3"><img id="IMGI"class="hidden"src="Inkspace-images/I.png"></div>
-        <div id="box4"><img id="IMGN"class="hidden"src="Inkspace-images/N.png"></div>
-        <div id="box5"><img id="IMGK"class="hidden"src="Inkspace-images/K.png"> </div>
+        <div id="Box-part">
+            <div id="box1">
+            <img id="IMGB"src="Inkspace-images/B.png">
+            </div>
+            <div id="box2">
+            <img id="IMGL"src="Inkspace-images/L.png">
+            </div>
+            <div id="box3">
+            <img id="IMGI"src="Inkspace-images/I.png">
+            </div>
+            <div id="box4">
+            <img id="IMGN"src="Inkspace-images/N.png">
+            </div>
+            <div id="box5">
+            <img id="IMGK"src="Inkspace-images/K.png">
+            </div>
         </div>
+        
 
         <div id="prediction-submit">
             <label id="prediction-label">Prediction:</label>
-            <input id="prediction" name="Prediction" type="text" placeholder="word" maxlength="1">
+            <input id="prediction" name="Prediction" type="text" placeholder="word" maxlength="5">
             <button id="submit"><h3>Submit</h3></button>
             <button id="restart-button"> <h3>Restart Game</h3></button>
         </div>
