@@ -144,4 +144,50 @@ body{
 .hidden{
     display:none;
 }
-#restart
+#restart-button:hover{
+    color:#006aff;
+}
+#IMGB{
+    width: 120px; 
+    height: 120px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+#IMGL{
+    width: 120px; 
+    height: 120px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+#IMGI{
+    width: 120px; 
+    height: 120px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+#IMGN{
+    width: 120px; 
+    height: 120px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+#IMGK{
+    width: 120px; 
+    height: 120px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+
+
+
