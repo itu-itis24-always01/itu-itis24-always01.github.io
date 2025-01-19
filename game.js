@@ -86,7 +86,6 @@ playerSubmit.onclick = function () {
             alert("Congratulations You Won The Game!")
         }
 
-
     }else if(userinput === "BLINK"){
         score = 100;
         playerScore.textContent = score;
